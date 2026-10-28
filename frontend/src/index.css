@@ -1,0 +1,3 @@
+/* index.css — base resets only, all styling in App.css */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }

@@ -1,0 +1,25 @@
+{
+    "selected_parameters": {
+        "class_weight": null,
+        "max_depth": 3,
+        "max_features": 1.0,
+        "min_samples_leaf": 80,
+        "min_samples_split": 30,
+        "n_estimators": 200
+    },
+    "cv_accuracy": 0.8902324499762393,
+    "test_accuracy": 0.9011452682338759,
+    "balanced_accuracy": 0.8153009427121103,
+    "precision": 0.7164179104477612,
+    "recall": 0.6857142857142857,
+    "specificity": 0.9448875997099347,
+    "f1_score": 0.7007299270072993,
+    "false_positive_rate": 0.05511240029006526,
+    "false_negative_rate": 0.3142857142857143,
+    "roc_auc": 0.9306277841085674,
+    "average_precision": 0.7955144627316958,
+    "tn": 1303,
+    "fp": 76,
+    "fn": 88,
+    "tp": 192
+}

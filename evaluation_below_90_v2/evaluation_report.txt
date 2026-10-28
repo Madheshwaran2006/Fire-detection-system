@@ -1,0 +1,34 @@
+FIRE AND SMOKE DETECTION - MODEL EVALUATION REPORT
+==========================================================
+
+model_file: F:\ML\evaluation_below_90_v2\random_forest_candidate_v2.joblib
+dataset_file: F:\ML\data\efireguard_binary_provisional.csv
+test_rows: 1327
+decision_threshold: 0.3000
+accuracy: 0.8922
+balanced_accuracy: 0.8694
+precision: 0.6382
+recall_sensitivity: 0.8348
+specificity: 0.9039
+f1_score: 0.7234
+false_positive_rate: 0.0961
+false_negative_rate: 0.1652
+roc_auc: 0.9315
+average_precision: 0.7976
+matthews_corrcoef: 0.6671
+cohen_kappa: 0.6580
+brier_score: 0.0683
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93      1103
+           1       0.64      0.83      0.72       224
+
+    accuracy                           0.89      1327
+   macro avg       0.80      0.87      0.83      1327
+weighted avg       0.91      0.89      0.90      1327
+
+Confusion matrix (labels [0, 1]):
+[[997 106]
+ [ 37 187]]
